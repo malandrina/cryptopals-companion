@@ -1,6 +1,6 @@
 # Applied Cryptography for the Impatient: A Cryptopals Companion
 
-_Updated 6 February 2024_
+_Updated 8 February 2024_
 
 ---
 
@@ -12,14 +12,11 @@ _Applied Cryptography for the Impatient_ is an index of technical terms, concept
 - Links to more detailed references online
 - No code and no Cryptopals spoilers
 
-It is very much👷‍♀️ 🚧 under construction 🚧👷‍♀️
+It is very much👷‍🚧 under construction 🚧👷‍. Planned improvements can be viewed [here](https://github.com/malandrina/cryptopals-companion/issues).
 
-TODO:
-- Complete entries on: random number generation, Hamming distance, frequency
-  analysis, PKCS#7 padding, bitwise operations
-- Format citations
-- Add entry for padding oracle attack
-- Improve entry on bit-flipping attack
+## Contributing
+
+Did you notice a typo, a factual error, an omission or an index entry that would be improved with a link to your favorite resource? [Open an issue!](https://github.com/malandrina/cryptopals-companion/issues)
 
 ---
 
