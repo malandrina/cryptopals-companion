@@ -6,7 +6,7 @@ _Updated 8 February 2024_
 
 ## Introduction
 
-_Applied Cryptography for the Impatient_ is an index of technical terms, concepts and algorithms referenced in [Cryptopals](https://cryptopals.com) Challenges 1 - 28.
+[_Applied Cryptography for the Impatient_](https://malandrina.github.io/cryptopals-companion) is an index of technical terms, concepts and algorithms referenced in [Cryptopals](https://cryptopals.com) Challenges 1 - 28. It's hosted on GitHub Pages and published using docsify.
 
 - Concise definitions from credible sources
 - Links to more detailed references online
