@@ -375,7 +375,22 @@ Further reading:
 
 #### PKCS#7
 
+> Some content-encryption algorithms assume the input length is a multiple of k octets, where k is greater than one. For such algorithms, the input shall be padded at the trailing end with k-(lth mod k) octets all having value k-(lth mod k), where lth is the length of the input. In other words, the input is padded at the trailing end with one of the following strings:
+
+       01 -- if lth mod k = k-1
+    02 02 -- if lth mod k = k-2
+        .
+        .
+        .
+    k k ... k k -- if lth mod k = 0
+
+> The padding can be removed unambiguously since all input is padded, including input values that are already a multiple of the block size, and no padding string is a suffix of another. This padding method is well defined if and only if k is less than 256.
+
+
+[RFC 5652](https://datatracker.ietf.org/doc/html/rfc5652#section-6.3)
+
 Further reading:
+  - [Cryptography - PKCS#7 Padding, Node Security, 2021](https://node-security.com/posts/cryptography-pkcs-7-padding/)
   - [PKCS padding method, IBM](https://www.ibm.com/docs/en/zos/3.1.0?topic=rules-pkcs-padding-method)
 
 ### Pseudo-random number generators
