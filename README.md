@@ -235,7 +235,7 @@ Write a function that reverses MT19937's tempering function. Using the instance 
 
 Instantiate a new MT19937 PRNG and set its internal state equal to the untempered 624 numbers.
 
-See also: [Mersenne Twister](?id=mersenne-twister), [Pseudo-random number generators](?id=pseudo-random-number-generators), [Random number generators](?id=random-number-generators)
+See also: [Mersenne Twister](?id=mersenne-twister), [Random-number generators](?id=random-number-generators)
 
 Further reading:
   - [Cryptopals Set 3 Challenge 23](https://cryptopals.com/sets/3/challenges/23)
@@ -258,7 +258,7 @@ Further reading:
 
 Using the instance of MT19937 under attack, generate a random number note the current time `c`. For `s`, the most probable smallest possible seed value, to the current time `c`, instantiate a new MT19937 with the candidate seed and generate a random number. Determine whether the candidate seed is the original seed by comparing the random number to the original random number: If they are the same, the candidate seed is correct.
 
-See also: [Mersenne Twister](?id=mersenne-twister), [Pseudo-random number generators](?id=pseudo-random-number-generators), [Random number generators](?id=random-number-generators)
+See also: [Mersenne Twister](?id=mersenne-twister), [Random-number generators](?id=random-number-generators)
 
 Further reading:
   - [Cryptopals Set 3 Challenge 22](https://cryptopals.com/sets/3/challenges/22)
@@ -337,7 +337,13 @@ Further reading:
 
 ### Frequency analysis
 
+
+Further reading:
+  - [Frequency analysis, Wikipedia](https://en.wikipedia.org/wiki/Frequency_analysis)
+---
+
 ### Hamming distance
+
 
 Further reading:
   - [Wikipedia](https://en.wikipedia.org/wiki/Hamming_distance)
@@ -393,9 +399,22 @@ Further reading:
   - [Cryptography - PKCS#7 Padding, Node Security, 2021](https://node-security.com/posts/cryptography-pkcs-7-padding/)
   - [PKCS padding method, IBM](https://www.ibm.com/docs/en/zos/3.1.0?topic=rules-pkcs-padding-method)
 
-### Pseudo-random number generators
+### Random-number generators
+
+> Donald Knuth quotes John von Neumann as saying: "Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin." Computers are deterministic beasts: Stuff goes in one end, completely predictable operations occur inside, and different stuff comes out the other end. Put the same stuff in on two separate occasions and the same stuff comes out both times. Put the same stuff into two identical computers, and the same stuff comes out both of them. A computer can only be in a finite number of states (a large finite number, but a finite number nonetheless), and the stuff that comes out will always be a deterministic function of the stuff that went in and the computer's current state. That means that any random-number generator on a computer (at least, on a finite-state machine) is, by definition, periodic. Anything that is periodic is, by definition, predictable. And if something is predictable, it can't be random.<br></br>The best a computer can produce is a **pseudo-random sequence generator**. What's that? Many people have taken a stab at defining this formally, but I'll hand-wave here. ... For our purposes, a sequence generator is pseudo-random if it has this property:
+<br></br> 1. It looks random. This means it passes all the statistical tests of randomness that we can find.
+
+...
+
+> Cryptographic applications demand much more of a pseudo-random sequence generator than do most other applications. ... For a sequence to be **cryptographically secure pseudo-random**, it must also have this property:<br></br>2. It is unpredictable. It must be computationally infeasible to predict what the next random bit will be, given complete knowledge of the algorithm or hardware generating the sequence and all of the previous bits in the stream.
+
+...
+
+> A sequence generator is **real random** if it has this additional third property:<br></br>3. It cannot be reliably reproduced. If you run the sequence generator twice with the exact same input (at least as exact as humanly possible), you will get two completely unrelated random sequences.
+
+Schneier, Bruce, *Applied Cryptography, Second Edition: Protocols, Algorithms and Source Code in C*, (Indianapolis: John Wiley & Sons, 1996), 44-46.
+
 #### Mersenne Twister
-### Random number generators
 ### Vigenère cipher
 
 Polyalphabetic substitution cipher invented by Giovan Battista Bellaso in the 16th century, misattributed to Blaise de Vigenère.
