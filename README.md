@@ -342,11 +342,19 @@ Further reading:
   - [Frequency analysis, Wikipedia](https://en.wikipedia.org/wiki/Frequency_analysis)
 ---
 
-### Hamming distance
+### Edit distance
 
+A measure of string similarity.
 
 Further reading:
-  - [Wikipedia](https://en.wikipedia.org/wiki/Hamming_distance)
+  - [Edit distance, Wikipedia](https://en.wikipedia.org/wiki/Edit_distance)
+
+#### Hamming distance
+
+Given two strings of the same length, the number of substitutions required to transform one string into the other.
+
+Further reading:
+  - [Hamming distance, Wikipedia](https://en.wikipedia.org/wiki/Hamming_distance)
 
 ---
 
