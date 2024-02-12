@@ -429,5 +429,5 @@ Further reading:
   McNamara, Tim, *Rust in Action*, (New York: Manning Publications Co., 2021), 202.
 
   Further reading:
-  - [Word (compute architecture), Wikipedia](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+  - [Word (computer architecture), Wikipedia](https://en.wikipedia.org/wiki/Word_(computer_architecture))
 ---
