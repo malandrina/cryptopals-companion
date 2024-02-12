@@ -321,7 +321,9 @@ Further reading:
 ### Encryption standards
 #### AES
 
-Advanced Encryption Standard. U.S. National Institute of Standards and Technology specification for the encryption of data using a symmetric key algorithm.
+> A U.S. Government-approved cryptographic algorithm that can be used to protect electronic data. The AES algorithm is a symmetric block cipher that can encrypt (encipher) and decrypt (decipher) information.
+
+"Advanced Encryption Standard". [NIST Computer Security Resource Center Glossary](https://csrc.nist.gov/glossary/term/advanced_encryption_standard). Accessed 12 February 2024.
 
 Further reading:
   - [Advanced Encryption Standard, Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
