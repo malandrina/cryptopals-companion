@@ -239,7 +239,6 @@ See also: [Mersenne Twister](?id=mersenne-twister), [Random-number generators](?
 
 Further reading:
   - [Cryptopals Set 3 Challenge 23](https://cryptopals.com/sets/3/challenges/23)
-  - [Matsumoto, M. and Nishimura, T., Mersenne Twister: A 623-Dimensionally Equidistributed Uniform Pseudo-Random Number generator, 1998 (PDF)](https://dl.acm.org/doi/pdf/10.1145/272991.272995)
   - [Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister)
 
 ---
@@ -262,7 +261,6 @@ See also: [Mersenne Twister](?id=mersenne-twister), [Random-number generators](?
 
 Further reading:
   - [Cryptopals Set 3 Challenge 22](https://cryptopals.com/sets/3/challenges/22)
-  - [Matsumoto, M. and Nishimura, T., Mersenne Twister: A 623-Dimensionally Equidistributed Uniform Pseudo-Random Number generator, 1998 (PDF)](https://dl.acm.org/doi/pdf/10.1145/272991.272995)
   - [Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister)
 
 #### Cut-and-paste
@@ -421,6 +419,13 @@ Further reading:
 
 #### Mersenne Twister
 
+Pseudo-random number generator (PRNG) developed in 1997.
+
+Further reading:
+  - [Mersenne Twister, Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister)
+  - [Mersenne Twister: A 623-dimensionally equidistributed uniform pseudorandom number generator (PDF)](http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/ARTICLES/mt.pdf)
+  - [random, docs.python.org](https://docs.python.org/3/library/random.html)
+  - [Random, ruby-doc.org](https://ruby-doc.org/3.3.0/Random.html)
 
 ### Vigenère cipher
 
