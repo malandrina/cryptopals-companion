@@ -414,7 +414,14 @@ Further reading:
 
 Schneier, Bruce, *Applied Cryptography, Second Edition: Protocols, Algorithms and Source Code in C*, (Indianapolis: John Wiley & Sons, 1996), 44-46.
 
+Further reading:
+  - [Pseudorandom generator, Wikipedia](https://en.wikipedia.org/wiki/Pseudorandom_generator)
+  - [PRNG, NIST Computer Security Resource Center](https://csrc.nist.gov/glossary/term/prng)
+  - [Random number generation, Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation)
+
 #### Mersenne Twister
+
+
 ### Vigenère cipher
 
 Polyalphabetic substitution cipher invented by Giovan Battista Bellaso in the 16th century, misattributed to Blaise de Vigenère.
