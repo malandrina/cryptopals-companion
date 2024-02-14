@@ -150,7 +150,7 @@ Transpose the decoded ciphertext. Split the decoded transposed ciphertext into b
 
 Finally, construct a repeating key `REPEATING_KEY` using `KEY`. XOR `REPEATING_KEY` with the decoded ciphertext to decrypt.
 
-See also: [Brute force](?id=brute-force), [Hamming distance](?id=hamming-distance)
+See also: [Brute force](?id=brute-force), [Frequency analysis](?id=frequency-analysis), [Hamming distance](?id=hamming-distance)
 
 Further reading:
   - [Cryptopals Set 1 Challenge 6](https://cryptopals.com/sets/1/challenges/6)
@@ -337,9 +337,13 @@ Further reading:
 
 ### Frequency analysis
 
+A method used in cryptanalysis whereby the frequencies of letters occurring in a ciphertext are computed and compared to the frequencies typically occurring in English (or whatever language the plaintext is assumed to be).
 
 Further reading:
   - [Frequency analysis, Wikipedia](https://en.wikipedia.org/wiki/Frequency_analysis)
+  - [Letter frequency, Wikipedia](https://en.wikipedia.org/wiki/Letter_frequency)
+  - [Letters and Their Frequencies, StackOverflow](https://stackoverflow.org/tools/letters.php)
+
 ---
 
 ### Edit distance
