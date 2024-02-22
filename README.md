@@ -373,13 +373,31 @@ Further reading:
 ---
 
 ### Keystream
+
 See: [Stream cipher](?id=stream-cipher)
+
+---
 
 ### Nonce
 
 > A random or non-repeating value that is included in data exchanged by a protocol, usually for the purpose of guaranteeing the transmittal of live data rather than replayed data, thus detecting and protecting against replay attacks.
 
 "Nonce". [NIST Computer Security Resource Center Glossary](https://csrc.nist.gov/glossary/term/nonce). Accessed 6 February 2024.
+
+---
+
+### Oracle
+
+Defined by Alan Turing in 1938 as "some unspecified means of solving number theoretic problems".
+
+Extending this definition to other problems commonly encountered in cryptography, we may define an _encryption oracle_ as an unspecified means of encrypting data; a _padding oracle_ as an unspecified means of learning whether an encrypted message has valid padding; and a _random oracle_ as an unspecified means of producing a random number.
+
+Further reading:
+  - [Does a cryptographic oracle have to be a server?, StackOverflow](https://crypto.stackexchange.com/questions/88777/does-a-cryptographic-oracle-have-to-be-a-server)
+  - [Oracle machine, Wikipedia](https://en.wikipedia.org/wiki/Oracle_machine#Applications_to_cryptography)
+  - [Turing, Alan. Systems of Logic Based on Ordinals (PDF)](https://www.dcc.fc.up.pt/%7Eacm/turing-phd.pdf)
+
+---
 
 ### Padding
 
@@ -439,17 +457,6 @@ Further reading:
   - [Mersenne Twister: A 623-dimensionally equidistributed uniform pseudorandom number generator (PDF)](http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/ARTICLES/mt.pdf)
   - [random, docs.python.org](https://docs.python.org/3/library/random.html)
   - [Random, ruby-doc.org](https://ruby-doc.org/3.3.0/Random.html)
-
-### Oracle
-
-Defined by Alan Turing in 1938 as "some unspecified means of solving number theoretic problems".
-
-Extending this definition to other problems commonly encountered in cryptography, we may define an _encryption oracle_ as an unspecified means of encrypting data; a _padding oracle_ as an unspecified means of learning whether an encrypted message has valid padding; and a _random oracle_ as an unspecified means of producing a random number.
-
-Further reading:
-  - [Does a cryptographic oracle have to be a server?, StackOverflow](https://crypto.stackexchange.com/questions/88777/does-a-cryptographic-oracle-have-to-be-a-server)
-  - [Oracle machine, Wikipedia](https://en.wikipedia.org/wiki/Oracle_machine#Applications_to_cryptography)
-  - [Turing, Alan. Systems of Logic Based on Ordinals (PDF)](https://www.dcc.fc.up.pt/%7Eacm/turing-phd.pdf)
 
 ### Vigenère cipher
 
