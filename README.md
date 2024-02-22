@@ -1,6 +1,6 @@
 # Applied Cryptography for the Impatient: A Cryptopals Companion
 
-_Updated 12 February 2024_
+_Updated 22 February 2024_
 
 ---
 
