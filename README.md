@@ -114,7 +114,7 @@ Schneier, Bruce, *Applied Cryptography, Second Edition: Protocols, Algorithms an
 **What the attacker must learn**
 - The bytes that must be substituted for a subset of the ciphertext such that decrypting the modified ciphertext produces the desired plaintext
 
-See also: [Cryptographic modes - CBC](?id=cbc), [Encryption oracle](?id=encryption-oracle)
+See also: [Cryptographic modes - CBC](?id=cbc), [Oracle](?id=oracle)
 
 Further reading:
   - [Attacking CBC Mode Encryption: Bit Flipping, Zhang Zeyu, Medium](https://zhangzeyu2001.medium.com/attacking-cbc-mode-bit-flipping-7e0a1c185511)
@@ -317,7 +317,6 @@ Schneier, Bruce, *Applied Cryptography, Second Edition: Protocols, Algorithms an
 Further reading:
   - [Block cipher mode of operation, Wikipedia](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Electronic_codebook_(ECB))
 
-### Encryption oracle
 ### Encryption standards
 #### AES
 
@@ -440,6 +439,17 @@ Further reading:
   - [Mersenne Twister: A 623-dimensionally equidistributed uniform pseudorandom number generator (PDF)](http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/ARTICLES/mt.pdf)
   - [random, docs.python.org](https://docs.python.org/3/library/random.html)
   - [Random, ruby-doc.org](https://ruby-doc.org/3.3.0/Random.html)
+
+### Oracle
+
+Defined by Alan Turing in 1938 as "some unspecified means of solving number theoretic problems".
+
+Extending this definition to other problems commonly encountered in cryptography, we may define an _encryption oracle_ as an unspecified means of encrypting data; a _padding oracle_ as an unspecified means of learning whether an encrypted message has valid padding; and a _random oracle_ as an unspecified means of producing a random number.
+
+Further reading:
+  - [Does a cryptographic oracle have to be a server?, StackOverflow](https://crypto.stackexchange.com/questions/88777/does-a-cryptographic-oracle-have-to-be-a-server)
+  - [Oracle machine, Wikipedia](https://en.wikipedia.org/wiki/Oracle_machine#Applications_to_cryptography)
+  - [Turing, Alan. Systems of Logic Based on Ordinals (PDF)](https://www.dcc.fc.up.pt/%7Eacm/turing-phd.pdf)
 
 ### Vigenère cipher
 
